@@ -1,0 +1,14 @@
+.carousel-img-caption {
+    top: 35%;
+}
+
+.elearning-section-part {
+    background-color: #F4FAFD;
+}
+
+@media only screen and (max-width: 767px) {
+    .course img {
+        width: 100%;
+    }
+
+}
