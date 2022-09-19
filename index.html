@@ -13,27 +13,40 @@
 
 <body>
     <header class="container">
-        <!--Image Slider Start-->
+        <!-- Image Slider Start-->
         <section>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                        <div class="color-overlay"></div>
                         <div class="carousel-caption d-md-block carousel-img-caption p-0">
-                            <h1>First slide label</h1>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h1>Get Started Digital Learning</h1>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout.</p>
                             <button type="button" class="btn btn-primary">Get Started</button>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                        <div class="color-overlay"></div>
                         <div class="carousel-caption d-md-block carousel-img-caption p-0">
-                            <h1>First slide label</h1>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h1>Get Started Digital Learning</h1>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout.</p>
                             <button type="button" class="btn btn-primary">Get Started</button>
                         </div>
                     </div>
-
+                    <div class="carousel-item">
+                        <div class="color-overlay"></div>
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block carousel-img-caption p-0">
+                            <h1>Get Started Digital Learning</h1>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout.</p>
+                            <button type="button" class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                     data-bs-slide="prev">
@@ -46,6 +59,7 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+
         </section>
         <!--Image Slider End-->
     </header>
@@ -53,9 +67,10 @@
     <main class="container mt-5">
         <!--Available Courses Section Start-->
         <section>
-            <h1 class="text-center">Discover Our Popular Courses</h1>
-            <p class="text-center">It is a long established fact that a reader will be distracted by the readable
-                content of a page when looking at its layout.</p>
+            <div class="mb-5">
+                <h1 class="text-center">Discover Our Popular Courses</h1>
+                <p class="text-center">It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.</p>
             </div>
             <div class="row g-4 mb-5">
                 <div class="col-lg-6 col-md-12 course">
@@ -120,13 +135,14 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center">
-                <button type="button" class="btn btn-primary">See More Courses</button>
+                <button type="button" class="d-none d-lg-block btn btn-primary">See More Courses</button>
+                <button type="button" class="d-lg-none btn btn-primary">View All</button>
             </div>
         </section>
         <!--Available Courses Section End-->
 
         <!--Explore The Elearning Institute Section Start-->
-        <section class="eleaning-section mt-5">
+        <section class="eleaning-section mt-5 ps-2 pe-2">
             <div class="row">
                 <div class="col-lg-5 col-md-12 p-0">
                     <img class="w-100" src="images/working.png" alt="">
@@ -163,9 +179,51 @@
         </section>
         <!--Explore The Elearning Institute Section End-->
 
+        <section class="p-5 bg-info mt-5 mb-5 rounded">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-md-12 flex flex-column justify-content-center text-center text-lg-start text-white">
+                    <h1>Ready to join?</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout.</p>
+                </div>
+                <div class="col-lg-4 col-md-12 d-flex justify-content-center">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light text-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Get Started
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Understood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!--Successful Student Section Start-->
-        <h1>Meet Our Successfull <br class="d-none d-lg-inline"> Students</h1>
-        <p>It is a long established fact that a reader will be distracted by the <br class="d-none d-lg-inline"> readable content of a page when looking at its layout.</p>
+        <div class="mb-5 mt-5">
+            <h1>Meet Our Successfull <br class="d-none d-lg-inline"> Students</h1>
+            <p>It is a long established fact that a reader will be distracted by the <br class="d-none d-lg-inline">
+                readable content of a page when looking at its layout.</p>
+        </div>
         <div class="row g-4">
             <div class="col-lg-3 col-md-6">
                 <div class="border rounded">
@@ -192,7 +250,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="border rounded">
                     <div>
-                        <img class= "w-100" src="images/student/student-3.png" alt="">
+                        <img class="w-100" src="images/student/student-3.png" alt="">
                     </div>
                     <div class="p-3">
                         <h4>Awlad Hossain</h4>
@@ -215,9 +273,13 @@
         <!--Successful Student Section End-->
     </main>
 
-    
+    <footer>
+        <div>
 
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

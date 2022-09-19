@@ -2,13 +2,28 @@
     top: 35%;
 }
 
+.color-overlay {
+    background-color: black;
+    opacity: .7;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
 .elearning-section-part {
     background-color: #F4FAFD;
 }
 
 @media only screen and (max-width: 767px) {
+    .carousel-img-caption {
+        top: 5%;
+    }
+
     .course img {
         width: 100%;
     }
 
 }
+
