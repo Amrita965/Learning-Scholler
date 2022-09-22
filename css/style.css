@@ -4,7 +4,7 @@
 
 .color-overlay {
     background-color: black;
-    opacity: .7;
+    opacity: .5;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -16,11 +16,11 @@
     background-color: #F4FAFD;
 }
 
-
-
 @media only screen and (max-width: 767px) {
-    .carousel-img-caption {
-        top: 5%;
+
+
+    .img-slider > h1{
+        font-size: 20px !important;
     }
 
     .course img {
@@ -30,6 +30,10 @@
     .quesiton-section, .content {
         width: 100% !important;
         margin: 0px;
+    }
+
+    .hide {
+        display: none;
     }
 
 }

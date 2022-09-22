@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Learning Scholler</title>
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
     <!--Custom CSS-->
@@ -16,37 +16,91 @@
 
 <body>
     <header class="container">
+
+        <!--Navigation Bar Start-->
+        <section class="mb-4">
+            <nav class="navbar navbar-expand-lg bg-white py-4">
+                <div class="container-fluid">
+                    <h3>Learning Scholler</h3>
+                    <!-- <a class="navbar-brand" href="#">Learning Scholler</a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active px-3" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="#">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="#">Deals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  px-3">Success</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  px-3">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  px-3">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <button type="button"
+                            class="btn btn-white px-5 text-primary border border-primary border-2">Register</button>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!--Navigation Bar End-->
+
         <!-- Image Slider Start-->
-        <section>
+        <section class="img-slider">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
                         <div class="color-overlay"></div>
-                        <div class="carousel-caption d-md-block carousel-img-caption p-0">
-                            <h1>Get Started Digital Learning</h1>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                        <div class="carousel-caption d-none d-md-block carousel-img-caption p-0">
+                            <h1>Get Started Digital <br> Learning</h1>
+                            <p>It is a long established fact that a reader will be distracted by the <br> readable
+                                content of
                                 a page when looking at its layout.</p>
+                            <button type="button" class="btn btn-primary">Get Started</button>
+                        </div>
+                        <div class="carousel-caption d-md-none carousel-img-caption p-0">
                             <button type="button" class="btn btn-primary">Get Started</button>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
                         <div class="color-overlay"></div>
-                        <div class="carousel-caption d-md-block carousel-img-caption p-0">
-                            <h1>Get Started Digital Learning</h1>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                        <div class="carousel-caption d-none d-md-block carousel-img-caption p-0">
+                            <h1>Get Started Digital <br> Learning</h1>
+                            <p>It is a long established fact that a reader will be distracted by the <br> readable
+                                content of
                                 a page when looking at its layout.</p>
+                            <button type="button" class="btn btn-primary">Get Started</button>
+                        </div>
+                        <div class="carousel-caption d-md-none carousel-img-caption p-0">
                             <button type="button" class="btn btn-primary">Get Started</button>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="color-overlay"></div>
                         <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-md-block carousel-img-caption p-0">
-                            <h1>Get Started Digital Learning</h1>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                        <div class="carousel-caption d-none d-md-block carousel-img-caption p-0">
+                            <h1>Get Started Digital <br> Learning</h1>
+                            <p>It is a long established fact that a reader will be distracted by the <br> readable
+                                content of
                                 a page when looking at its layout.</p>
+                            <button type="button" class="btn btn-primary">Get Started</button>
+                        </div>
+                        <div class="carousel-caption d-md-none carousel-img-caption p-0">
                             <button type="button" class="btn btn-primary">Get Started</button>
                         </div>
                     </div>
@@ -80,7 +134,7 @@
                     <div class="d-md-flex align-items-center border rounded">
                         <img src="images/course/course-1.png" alt="">
                         <div class="p-4">
-                            <h3>Javascript Basic to advanced</h3>
+                            <h4>Fundamental Of UI/UX Design</h4>
                             <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                             <h5 class="text-primary">Price : 20$</h5>
                         </div>
@@ -90,7 +144,7 @@
                     <div class="d-md-flex align-items-center border rounded">
                         <img src="images/course/course-2.png" alt="">
                         <div class="p-4">
-                            <h3>Javascript Basic to advanced</h3>
+                            <h4>Javascript Basic to advanced</h4>
                             <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                             <h5 class="text-primary">Price : 20$</h5>
                         </div>
@@ -100,7 +154,7 @@
                     <div class="d-md-flex align-items-center border rounded">
                         <img src="images/course/course-3.png" alt="">
                         <div class="p-4">
-                            <h3>Fullstack Web Development</h3>
+                            <h4>Fullstack Web Development</h4>
                             <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                             <h5 class="text-primary">Price : 20$</h5>
                         </div>
@@ -110,7 +164,7 @@
                     <div class="d-md-flex align-items-center border rounded">
                         <img src="images/course/course-4.png" alt="">
                         <div class="p-4">
-                            <h3>Digital Marketing</h3>
+                            <h4>Digital Marketing</h4>
                             <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                             <h5 class="text-primary">Price : 20$</h5>
                         </div>
@@ -120,7 +174,7 @@
                     <div class="d-md-flex align-items-center border rounded">
                         <img src="images/course/course-5.png" alt="">
                         <div class="p-4">
-                            <h3>Photography Basic Rules</h3>
+                            <h4>Photography Basic Rules</h4>
                             <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                             <h5 class="text-primary">Price : 20$</h5>
                         </div>
@@ -130,7 +184,7 @@
                     <div class="d-md-flex align-items-center border rounded">
                         <img src="images/course/course-6.png" alt="">
                         <div class="p-4">
-                            <h3>Photography Basic Rules</h3>
+                            <h4>Motion Graphics</h4>
                             <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                             <h5 class="text-primary">Price : 20$</h5>
                         </div>
@@ -167,15 +221,17 @@
                                 <p>Online Course</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-6">
-                                <h1>3.2K+</h1>
-                                <p>Online Course</p>
+                                <h1>600+</h1>
+                                <p>Expert member</p>
                             </div>
                             <div class="col-lg-4 col-md-6 col-6">
                                 <h1>1K+</h1>
                                 <p>Rating & Review</p>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-primary w-25">Read More</button>
+                        <div>
+                            <button type="button" class="btn btn-primary">Read More</button>
+                        </div>
 
                     </div>
                 </div>
@@ -198,29 +254,93 @@
                         Get Started
                     </button>
 
-                    <!-- Modal -->
+                    <!-- Modal Start-->
                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                         tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                    <div class="w-75 mx-auto">
+                                        <img class="img-fluid" src="images/kisspng-graduation-ceremony-square-academic-cap-student-sc-graduation-.png" alt="">
+                                    </div>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Understood</button>
-                                </div>
+                                <form action="">
+                                    <div class="modal-body">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Enter your first name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Enter your last name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Date of
+                                                Birth</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="mm/dd/yyyy">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Email
+                                                address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="name@example.com">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Phone
+                                                Number</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Enter your phone number">
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <p>Gender: </p>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios"
+                                                    id="exampleRadios1" value="option1" checked>
+                                                <label class="form-check-label" for="exampleRadios1">
+                                                    Male
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios"
+                                                    id="exampleRadios2" value="option2">
+                                                <label class="form-check-label" for="exampleRadios2">
+                                                    Fe-Male
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios"
+                                                    id="exampleRadios3" value="option3" disabled>
+                                                <label class="form-check-label" for="exampleRadios3">
+                                                    Others
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" class="form-label">Address</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                rows="3"></textarea>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="reset" class="btn btn-danger">Reset</button>
+                                            <button type="Submit" class="btn btn-primary">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
+                        <!--Modal End-->
                     </div>
                 </div>
-            </div>
         </section>
 
         <!--Successful Student Section Start-->
@@ -283,11 +403,12 @@
         <!--Successful Student Section End-->
 
         <!--Student Feedback Section Start-->
-        <section class="mb-5">
+        <section class="mb-5 student-feedback-section">
             <div class="d-flex justify-content-center mb-5 mt-5">
-                <div class="w-50 text-center">
+                <div class="text-center">
                     <h1>Some Students Feedback</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                    <p>It is a long established fact that a reader will be distracted by the readable <br class="hide">
+                        content of a page
                         when looking at its layout.</p>
                 </div>
             </div>
@@ -360,11 +481,12 @@
         <!--Student Feedback Section End-->
 
         <!--Frequently Asked Question Section Start-->
-        <section class="w-75 mx-auto mb-5 quesiton-section">
+        <section class="mx-auto mb-5 quesiton-section">
             <div class="d-flex justify-content-center mb-5 mt-5">
-                <div class="w-75 text-center content">
+                <div class="text-center content">
                     <h1>Frequently Asked Questions</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                    <p>It is a long established fact that a reader will be distracted by the readable <br class="hide">
+                        content of a page
                         when looking at its layout.</p>
                 </div>
             </div>
@@ -442,19 +564,22 @@
         <!--Frequently Asked Question Section End-->
 
         <section class="d-none d-lg-block">
-            <div>
-                <h1 class="text-center">Trusted by over 800+ companies</h1>
-                <div class="d-flex w-100 justify-content-between mt-4">
-                    <img src="images/company/company-1.png" alt=""><img src="images/company/company-2.png" alt=""><img src="images/company/company-3.png" alt=""><img src="images/company/company-4.png" alt=""><img src="images/company/company-5.png" alt=""><img src="images/company/company-6.png" alt="">
-                </div>
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-2"><img class="w-100" src="images/company/company-1.png" alt=""></div>
+                <div class="col-lg-2"><img class="w-100" src="images/company/company-2.png" alt=""></div>
+                <div class="col-lg-2"><img class="w-100" src="images/company/company-3.png" alt=""></div>
+                <div class="col-lg-2"><img class="w-100" src="images/company/company-4.png" alt=""></div>
+                <div class="col-lg-2"><img class="w-100" src="images/company/company-5.png" alt=""></div>
+                <div class="col-lg-2"><img class="w-100" src="images/company/company-6.png" alt=""></div>
             </div>
         </section>
 
     </main>
 
+    <!--Footer section start-->
     <footer class="p-5 bg-dark mt-5">
         <div class="text-white text-center">
-            <h3>Pro Edu</h3>
+            <h3>Learning Scholler</h3>
             <p>Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</p>
             <p>Privacy Ploicy | Terms of use</p>
         </div>
@@ -466,6 +591,7 @@
 
         </h3>
     </footer>
+    <!--Footer section end-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
